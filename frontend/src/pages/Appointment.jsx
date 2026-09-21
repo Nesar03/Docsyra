@@ -93,7 +93,7 @@ const Appointment = () => {
       const {data} = await axios.post(backendUrl + '/api/user/book-appointment',{docId,slotDate,slotTime},{headers:{token}})
       if(data.success){
         toast.success(data.message)
-        getDoctorsData
+        getDoctorsData()
         navigate('/my-appointment')
       }
       else{
