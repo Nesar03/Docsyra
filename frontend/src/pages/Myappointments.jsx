@@ -26,7 +26,6 @@ const MyAppointments = () => {
       setAppointments(data.appointments.reverse())
 
     } catch (error) {
-      console.log(error)
       toast.error(error.message)
     }
   }
@@ -47,7 +46,6 @@ const MyAppointments = () => {
       }
 
     } catch (error) {
-      console.log(error)
       toast.error(error.message)
     }
 
