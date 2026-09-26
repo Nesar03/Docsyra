@@ -43,7 +43,6 @@ const AdminContextProvider = (props) => {
             }
 
         } catch (error) {
-            console.log(error)
             toast.error(error.message)
         }
     }
@@ -58,7 +57,6 @@ const AdminContextProvider = (props) => {
                 toast.error(data.message)
             }
         } catch (error) {
-            console.log(error)
             toast.error(error.message)
         }
     }
@@ -77,7 +75,6 @@ const AdminContextProvider = (props) => {
 
         } catch (error) {
             toast.error(error.message)
-            console.log(error)
         }
 
     }
@@ -98,7 +95,6 @@ const AdminContextProvider = (props) => {
 
         } catch (error) {
             toast.error(error.message)
-            console.log(error)
         }
 
     }
@@ -116,7 +112,6 @@ const AdminContextProvider = (props) => {
             }
 
         } catch (error) {
-            console.log(error)
             toast.error(error.message)
         }
 
