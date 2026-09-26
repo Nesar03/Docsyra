@@ -33,7 +33,6 @@ const DoctorContextProvider = (props) => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.error(error);
       toast.error(error.message);
     }
   };
@@ -54,7 +53,6 @@ const DoctorContextProvider = (props) => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.error(error);
       toast.error(error.message);
     }
   };
@@ -75,7 +73,6 @@ const DoctorContextProvider = (props) => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.error(error);
       toast.error(error.message);
     }
   };
@@ -93,7 +90,6 @@ const DoctorContextProvider = (props) => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.error(error);
       toast.error(error.message);
     }
   };
@@ -111,7 +107,6 @@ const DoctorContextProvider = (props) => {
         toast.error(data.message);
       }
     } catch (error) {
-      console.error(error);
       toast.error(error.message);
     }
   };
