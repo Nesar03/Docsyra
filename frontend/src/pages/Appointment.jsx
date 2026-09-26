@@ -21,7 +21,6 @@ const Appointment = () => {
   const fetchDocInfo = () => {
     const docInfo = doctors.find(doc => doc._id?.toString() === docId)
     setDocInfo(docInfo)
-    console.log(docInfo)
   }
 
   const getAvailableSlots =  () => {
@@ -116,7 +115,6 @@ const Appointment = () => {
   },[docInfo])
 
   useEffect(()=>{
-    console.log(docSlots)
   },[docSlots])
   
   
